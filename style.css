@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.open-popup {
+    visibility: visible;
+    top: -70px;
+    transform: scale(1);
+}
