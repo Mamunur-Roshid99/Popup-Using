@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Using</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#385078] flex items-center justify-center h-screen">
+    
+    <div class="relative">
+        <button type="submit" class="btn absolute bg-white px-7 py-1 text-base font-medium border-none outline-none rounded-lg">Submit</button>
+        <div class="popup bg-white rounded-lg p-4 relative text-center">
+            <img src="404-tick.png" class="absolute w-20 right-28 bottom-48">
+            <h2 class="mt-12 text-2xl font-medium tracking-wider mb-2">Thank You!</h2>
+            <p class="text-lg mb-4">Your details has been seccessfully <br> submitted. Thanks!</p>
+            <button type="button" class="bg-green-500 w-full h-9 text-white rounded-md shadow-lg">OK</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
