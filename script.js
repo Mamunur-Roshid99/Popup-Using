@@ -1,9 +1,9 @@
 const popup = document.getElementById("popup");
 
 function openbtn() {
-    popup.classList.add("open-popup");
+    popup.style.display = "block";
 }
 
 function closebtn() {
-  popup.classList.remove("open-popup");
+  popup.style.display = "none";
 }
